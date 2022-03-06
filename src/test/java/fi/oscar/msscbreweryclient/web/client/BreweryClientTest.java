@@ -35,7 +35,7 @@ class BreweryClientTest {
 		URI uri = client.saveNewBeer(beerDto);
 
 		assertNotNull(uri);
-		System.out.println(uri);
+		System.out.println("saveNewBeer URI: " + uri);
 	}
 
 	@Test
@@ -66,7 +66,7 @@ class BreweryClientTest {
 		URI uri = client.saveNewCustomer(customerDto);
 
 		assertNotNull(uri);
-		System.out.println(uri);
+		System.out.println("saveNewCustomer URI: " + uri);
 	}
 
 	@Test
